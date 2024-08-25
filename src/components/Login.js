@@ -23,8 +23,16 @@ const Login = () => {
         </h1>
         {!isSignInForm && (
           <input
-            type="password"
+            type="text"
             placeholder="Full Name"
+            className="p-4 my-2 w-full bg-transparent border bg-opacity-80 border-slate-300 rounded-md"
+          />
+        )}
+
+        {!isSignInForm && (
+          <input
+            type="tel"
+            placeholder="Phone Number"
             className="p-4 my-2 w-full bg-transparent border bg-opacity-80 border-slate-300 rounded-md"
           />
         )}
