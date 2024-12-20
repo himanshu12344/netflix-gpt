@@ -22,11 +22,16 @@
 - Get data from TMDB doc "now playing" movie list API
 - Created Custom hook for Now playing Movie
 - Create movieSLice
-- Updating Store with movied Data
+- Updating Store with movies Data
 - Planning for mainContainer and secondary Container
 - Fetch Data for Trailer Video
 - Update Store with Trailer Video data
 - Embedded the youtube video and make it autoplay and mute
+- Build the secondary component
+- Build Movie List
+- Build Movie Card
+- TMDB Image CDN URL
+- Created the usePopularMovies Custom Hook
 
 # Features
 
